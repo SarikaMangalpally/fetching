@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Fetching</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="loader">
+      <img id ="loader_img" src="https://cdn.dribbble.com/users/71309/screenshots/2499001/indeterminate_loader_blur2.gif">
+  </div>
+    <input type="date" id = "date"/>
+    <div id="data-div">
+    <figure>
+        <img id = "AstronomyImage" src="" alt="Astronomy picture of the day"><br>
+        <h4>Title:</h4><figcaption id="figCaption"></figcaption>
+    </figure>
+       <h4>Explaination:</h4><p id = "explanation"></p>
+
+  </div>
+  <div id="nodata-div">
+    <p id ="error-para">no media available</p>
+  </div>
+
+</body>
+</html>
